@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+    padding: 13px;
+}
+nav img{
+    margin: 10px;
+}
+nav ul{
+    display: inline-flex;
+}
+.movie{
+    margin-top: 10px;
+}
+nav ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+nav ul button{
+    padding: 10px 15px;
+    color: aliceblue;
+    font-weight: 600;
+}
+nav ul button{
+    cursor: pointer;
+}
+button{
+    background-color: rgb(152, 146, 146);
+    border-radius: 5px;
+}
+nav ul li #join{
+    background-color: rgb(250, 27, 6);
+}
+nav ul li #join{
+    cursor: pointer;
+}
+.container{
+    background-image: url(https://wallpapercave.com/wp/wp5522126.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.container img{
+    margin: 10px;
+    margin-top: 5%;
+}
+.container p{
+    color: aliceblue;
+    margin: 5px;
+    margin-left: 40px;
+    font-size: x-large;
+}
+.container button{
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(153, 153, 152);
+    margin-left: 40px;
+    
+}
+.container #play{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 30px;
+}
+.container #now{
+    margin: 30px;
+    font-size:xx-large;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.main-box{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.main-box :hover{
+    cursor: pointer;
+    transition: 80ms;
+    height: 300px;
+    width: 308px;
+}
+.box-1{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://wallpapercave.com/wp/wp10584004.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.box-2{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://image.kpopmap.com/2019/12/Sweet-home-official-posters-netflix-2.jpeg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+    
+
+}
+.box-3{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://images.bonanzastatic.com/afu/images/98d3/670e/eb4f_5452494970/s-l1600.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-4{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.R-Cwe-bplHXcV3o3XC9VaQHaLH?pid=ImgDet&rs=1);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-5{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://images.hellomagazine.com/horizon/original_aspect_ratio/7e95c6816179-one-piece-netflix.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-6{
+    
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.-QBBB6OsaPyXUnUX4TpZxQHaLH?pid=ImgDet&rs=1);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-7{ 
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.efvj7mjmZCPaVJoxbnVvgAHaK9?pid=ImgDet&rs=1);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+    margin-right: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.main-box-2{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.main-box-2 :hover{
+    cursor: pointer;
+    transition: 80ms;
+    height: 300px;
+    width: 308px;
+
+}
+.box-11{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://image.tmdb.org/t/p/original/pE8CScObQURsFZ723PSW1K9EGYp.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.box-12{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://th.bing.com/th/id/R.e774d089608b8ba039b1362a961b4d03?rik=zw7m4oZLqLwFdw&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f20000000%2fGame-of-Thrones-Poster-game-of-thrones-20026735-1728-2560.jpg&ehk=CKe0EJDlUyJ7qPR3WbwarKV0aueF60wdtulvIciGyVs%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+    
+
+}
+.box-13{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://th.bing.com/th/id/R.daa5b1d8427680757256a41e5f1287ac?rik=vhMM%2biyCVJ6tog&riu=http%3a%2f%2fsimplywallpaper.net%2fpictures%2f2010%2f11%2f15%2fHarry-Potter-Deathly-Hallows-Wallpaper-Poster.jpg&ehk=Pz3%2fd71T66HgLTJz%2bMQmY5ZP%2b%2fR8qq330zGmQOAA80c%3d&risl=&pid=ImgRaw&r=0s);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-14{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://wallpapercave.com/wp/wp2191198.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-15{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://deadentertainment.com/uploads/the-witcher-netflix-new-poster-key-art-01-i28y29t2m4.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-16{
+    
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://www.themoviedb.org/t/p/w220_and_h330_face/6AgjdYu6yfVP3Cnlpw6x78BTsOx.jpg);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+}
+.box-17{ 
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/046/103/336/large/illusion-design-money-heist-poster-min.jpg?1644314844);
+    background-size: cover;
+    margin: 5px;
+    margin-top: 0;
+    margin-right: 0;
+}
+h1{
+    color: aliceblue;
+    margin: 20px;
+}
+.video{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    margin: 10px;
+    background-color:black;
+}
+.video :hover{
+    cursor: pointer;
+    transition: 100ms;
+    height: 500px;
+    width: 400px;
+}
+.video-1{
+    width: 350px;
+.video-2{
+    width: 350px;
+}
+}
+.video-3{
+    width:350px ;
+}
+.video-4{
+    width: 350px;
+    zoom: 20px;
+}
+h3{
+    color: rgb(184, 175, 175);
+    margin-top: 13%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.footer{
+    color: rgb(184, 175, 175);
+    display: flex;
+    list-style-type: none;
+    margin-left: 5%;
+}
+.footer li{
+    margin: 40px;
+    display: block;
+}
+.foot-1{
+    display: block;
+    margin-right: 10%;
+}
+.foot-2{
+    display: block;
+    margin-right: 10%;
+}
+.foot-3{
+    display: block;
+    margin-right: 10%;
+}
+
+.foot-4{
+    display: block;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
